@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.env*
+!.env.example
+.DS_Store
+.playwright-cli/
+# Local research captures, test logs and before-change backups.
+output/
+# Cloudflare build output and local credentials.
+.cloudflare/
+.vinext/
+.wrangler/
+dist/
+.dev.vars*
+# Switzer is self-hosted for this site, not redistributed through a repository.
+src/assets/fonts/switzer/*.woff2
+# Publicly published candidates are licensed for neither redistribution nor release by discovery alone.
+src/assets/home-preview/*

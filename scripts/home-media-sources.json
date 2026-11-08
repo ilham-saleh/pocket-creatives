@@ -1,0 +1,142 @@
+[
+  {
+    "id": "portrait",
+    "url": "https://www.pocketcreatives.co.uk/wp-content/uploads/2018/07/i-DrzqVsD-X5.jpg",
+    "path": "src/assets/home-preview/portrait.jpg",
+    "sourcePage": "https://www.pocketcreatives.co.uk/portfolio/beauty-photography-video/",
+    "originalAlt": "A woman applying a mask to her face.",
+    "sha256": "628c2c3d47b4375c839e89d9ec82926ff17dae4e2ba89b031b2021eccb910dc8",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "studio",
+    "url": "https://www.pocketcreatives.co.uk/wp-content/uploads/2025/03/why-hire-a-professional-photographer-2000x1500.jpg",
+    "path": "src/assets/home-preview/studio.jpg",
+    "sourcePage": "https://www.pocketcreatives.co.uk/ | https://www.pocketcreatives.co.uk/case-studies-hub/",
+    "originalAlt": "why hire a professional photographer",
+    "sha256": "a47f4294bd5afffef9ff25ec04e186b3cb2ff53e918b24043b2175d0ec1f5423",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "food",
+    "url": "https://www.pocketcreatives.co.uk/wp-content/uploads/2025/01/food-photography-at-pocket-creatives-2000x1335.jpg",
+    "path": "src/assets/home-preview/food.jpg",
+    "sourcePage": "https://www.pocketcreatives.co.uk/ | https://www.pocketcreatives.co.uk/case-studies-hub/",
+    "originalAlt": "food photography at pocket creatives",
+    "sha256": "323dd4fdb1120accafa1f36347f9a4878b0b3606837baafb8985454507f5978e",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "food2",
+    "url": "https://www.pocketcreatives.co.uk/wp-content/uploads/2025/03/what-is-food-photography-2000x1335.jpg",
+    "path": "src/assets/home-preview/food2.jpg",
+    "sourcePage": "https://www.pocketcreatives.co.uk/ | https://www.pocketcreatives.co.uk/case-studies-hub/",
+    "originalAlt": "what is food photography",
+    "sha256": "460a6f3cdaf1ce3d0e28e3b519a1a275b755cdd03fc45585a5aa350856d6c9f3",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "beauty",
+    "url": "https://www.pocketcreatives.co.uk/wp-content/uploads/2025/05/cosmetic-product-photography-3-2000x1335.jpg",
+    "path": "src/assets/home-preview/beauty.jpg",
+    "sourcePage": "https://www.pocketcreatives.co.uk/ | https://www.pocketcreatives.co.uk/case-studies-hub/",
+    "originalAlt": "cosmetic product photography",
+    "sha256": "d7ed21a304562572158a6db6e204915a67cccad171c7299c83fd32a2ec4f7efd",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "beauty2",
+    "url": "https://www.pocketcreatives.co.uk/wp-content/uploads/2022/11/beauty-product-photography-3-2000x1335.jpg",
+    "path": "src/assets/home-preview/beauty2.jpg",
+    "sourcePage": "https://www.pocketcreatives.co.uk/ | https://www.pocketcreatives.co.uk/case-studies-hub/",
+    "originalAlt": "beauty product photography",
+    "sha256": "d4d9c6e372f8ac2345194cd948cd3ab37d2f409993ac023fae519b1e40821f22",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "watch",
+    "url": "https://www.pocketcreatives.co.uk/wp-content/uploads/2025/01/watch-photography-2000x1335.jpg",
+    "path": "src/assets/home-preview/watch.jpg",
+    "sourcePage": "https://www.pocketcreatives.co.uk/ | https://www.pocketcreatives.co.uk/case-studies-hub/",
+    "originalAlt": "watch photography",
+    "sha256": "ed59dcbf8f0fcf18dcce522629063467cc99fffc1e3523f6cdb7bd9750d5a293",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "filming",
+    "url": "https://www.pocketcreatives.co.uk/wp-content/uploads/2024/01/videography-services-5-2000x1500.jpg",
+    "path": "src/assets/home-preview/filming.jpg",
+    "sourcePage": "https://www.pocketcreatives.co.uk/ | https://www.pocketcreatives.co.uk/case-studies-hub/",
+    "originalAlt": "videography services at pocket creatives",
+    "sha256": "5e836c8d99a256aa43e1c8c8ff7e1a3d28c4eb4a3d61925687c08b4b3f81ec37",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "about",
+    "url": "https://www.pocketcreatives.co.uk/wp-content/uploads/2022/11/about-us-at-pocket-creatives.png",
+    "path": "src/assets/home-preview/about.png",
+    "sourcePage": "https://www.pocketcreatives.co.uk/about-us/",
+    "originalAlt": "A woman with a towel on her head is holding a camera.",
+    "sha256": "08c4550c0cc0cabd24dad924bca4f90968f489c020cca0b7332f9d9475574774",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "planning",
+    "url": "https://www.pocketcreatives.co.uk/wp-content/uploads/2025/03/how-to-choose-a-video-production-company-2000x1500.jpg",
+    "path": "src/assets/home-preview/planning.jpg",
+    "sourcePage": "https://www.pocketcreatives.co.uk/how-we-work/",
+    "originalAlt": "how to choose a video production company",
+    "sha256": "b6ab6fc940a457db6460855c2909d4ee63569f3d060ecf7b0a0bffc79381eabb",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "boulder",
+    "url": "https://www.pocketcreatives.co.uk/wp-content/uploads/2024/03/Screenshot-80-2000x1250.png",
+    "path": "src/assets/home-preview/boulder.png",
+    "sourcePage": "https://www.pocketcreatives.co.uk/ | https://www.pocketcreatives.co.uk/case-studies-hub/",
+    "originalAlt": "video production at boulder shack by Pocket Creatives",
+    "sha256": "5e03be1f142ab43f95f9e72b6bff3219ee12f591612a8e61021a04678bd14181",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "1101645222",
+    "url": "https://i.vimeocdn.com/video/2038190016-7c7aa78d867761cc5c1b4f7a3fb45b2b9cc1f9265094fbc8aebf93be5de93c1b-d_1280?region=us",
+    "path": "src/assets/home-preview/vimeo-1101645222.jpg",
+    "sourcePage": "https://www.pocketcreatives.co.uk/",
+    "originalAlt": "Pocket Creatives in 73 Seconds - This Is Us",
+    "sha256": "efcbfb5af0aad837ba021a745ea3b07b6c12ecc645aac5363bf0fe4c794aed90",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "648958635",
+    "url": "https://i.vimeocdn.com/video/1340086561-d40bd3ed96bfd2c8bcb8e383dfa5c8c2aec708587378a49e96b6ed7772fcd4c9-d_1280?region=us",
+    "path": "src/assets/home-preview/vimeo-648958635.jpg",
+    "sourcePage": "https://www.pocketcreatives.co.uk/",
+    "originalAlt": "California Walnuts Christmas TV Ad",
+    "sha256": "751f38aa11d1fdade74556b54173be183e28cf55bb5b588a7510ec56103e2c78",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  },
+  {
+    "id": "1051508574",
+    "url": "https://i.vimeocdn.com/video/2021018664-6c0cddf2339d9b15ad1f6587a0b77b615cc0e7f77abff4efc16e041f910128fb-d_1280?region=us",
+    "path": "src/assets/home-preview/vimeo-1051508574.jpg",
+    "sourcePage": "https://www.pocketcreatives.co.uk/",
+    "originalAlt": "Samsung SparkBox",
+    "sha256": "1be2f9fe396e8edd6a94f65db7a0f2558fcd3e9b4d75404307f695dbf50b58c9",
+    "rights": "pending",
+    "usage": "private design preview only; not approved for publication"
+  }
+]
