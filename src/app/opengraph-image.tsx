@@ -1,6 +1,5 @@
 import { ImageResponse } from "next/og";
-import { readFile } from "node:fs/promises";
-import { join } from "node:path";
+import { socialCardFont, socialCardLogo } from "@/generated/social-card-assets";
 
 export const alt =
   "Pocket Creatives — video production and photography in London";
@@ -8,12 +7,9 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default async function OpenGraphImage() {
-  const [font, logo] = await Promise.all([
-    readFile(
-      join(process.cwd(), "src/assets/fonts/inter/InterDisplay-Bold-latin.ttf"),
-    ),
-    readFile(join(process.cwd(), "src/assets/brand/pocket-creatives-logo-og.png")),
-  ]);
+  const font = Uint8Array.from(atob(socialCardFont), (char) =>
+    char.charCodeAt(0),
+  ).buffer;
   return new ImageResponse(
     <div
       style={{
@@ -30,7 +26,7 @@ export default async function OpenGraphImage() {
     >
       {/* ImageResponse renders its own image elements, outside the web page. */}
       <img
-        src={`data:image/png;base64,${logo.toString("base64")}`}
+        src={socialCardLogo}
         width={192}
         height={96}
         style={{ flexShrink: 0 }}

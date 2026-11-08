@@ -14,6 +14,10 @@ Browser preference: reuse one named Playwright browser session with tabs for ref
 
 Read [plan.md](../plan.md), [phases.md](../phases.md) and this file before further work. Both requirement files were read completely before changes. The eight-phase sequence in `phases.md` supersedes the older seven-phase outline in `plan.md`. Highest priority is the actual Lumifya rendering and observable motion, using Pocket Creatives branding/content and original code with licensed assets. Explicit user approval is required after Phase 1 and Phase 5.
 
+## Publication request — 8 November 2026
+
+The user authorised a public GitHub repository and deployment, selected Workers rather than Pages, and approved Cloudflare image optimization with no shared cache. Source is published at https://github.com/ilham-saleh/pocket-creatives. See [deployment handoff](cloudflare-deployment.md) for the validated adapter, browser-only animation imports, bundled social assets, Node requirement and publication status. Existing media choices are preserved. No production-domain/DNS cutover or live email delivery is authorised by this review deployment.
+
 ## Phase status
 
 | Phase | Status | Result / next action |

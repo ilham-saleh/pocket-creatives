@@ -1,10 +1,12 @@
 # Pocket Creatives
 
+Public source: [ilham-saleh/pocket-creatives](https://github.com/ilham-saleh/pocket-creatives). See [Cloudflare deployment](docs/cloudflare-deployment.md) for the Workers build, Node version, commands and current deployment status. Generated research archives and restricted font/media copies stay local; links into `output/` refer to that archive.
+
 Lumifya-based Pocket Creatives redesign. Read [the requirements](plan.md), [phase sequence](phases.md) and [progress ledger](docs/progress.md). The homepage, motion and Phase 6 marketing pages are implemented. Gate B was approved on 6 November 2026. See the [Phase 6 report](docs/phase-6-pages.md) and [comparison](docs/phase-6-comparison.html). Phase 7 responsive refinements are implemented; see the [responsive report](docs/phase-7-responsive.md) and [six-width comparison board](docs/phase-7-comparison.html). Phase 8 local QA and release preparation are recorded in the [QA report](docs/phase-8-qa.md). Live email activation, physical-device checks, performance follow-ups and media/content release approval remain pending. See the [deployment guide](docs/deployment.md) and [release follow-ups](docs/release-readiness.md).
 
 ## Local development
 
-Use Node 22.13+ (validated with Node 24) and npm.
+Use Node 24.22.0 (see `.node-version`) and npm; this also satisfies the Cloudflare deployment CLI.
 
 ```sh
 npm ci

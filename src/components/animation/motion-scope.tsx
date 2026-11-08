@@ -1,32 +1,35 @@
 "use client";
-
-import { useRef, type ReactNode } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useGSAP } from "@gsap/react";
-
-gsap.registerPlugin(useGSAP, ScrollTrigger);
-
+import { useEffect, useRef, type ReactNode } from "react";
+type Setup = (scope: HTMLDivElement) => void | (() => void);
 type Props = {
   children: ReactNode;
   className?: string;
-  setup: (scope: HTMLDivElement) => void | (() => void);
+  loadSetup: () => Promise<Setup>;
 };
-
-// Opt-in lifecycle for Phase 4. No global scroll smoothing or hidden content.
-// matchMedia reverts scoped animations and ScrollTriggers on preference changes.
-export function MotionScope({ children, className, setup }: Props) {
+// Import browser animation libraries only after mounting; Workers SSR cannot start timers.
+export function MotionScope({ children, className, loadSetup }: Props) {
   const scope = useRef<HTMLDivElement>(null);
-  useGSAP(
-    () => {
-      const media = gsap.matchMedia();
-      media.add("(prefers-reduced-motion: no-preference)", () => {
-        if (scope.current) return setup(scope.current);
-      });
-      return () => media.revert();
-    },
-    { scope, dependencies: [setup], revertOnUpdate: true },
-  );
+  useEffect(() => {
+    let disposed = false;
+    let revert: (() => void) | undefined;
+    void Promise.all([import("gsap"), loadSetup()]).then(
+      ([{ default: gsap }, setup]) => {
+        if (disposed || !scope.current) return;
+        const context = gsap.context(() => {
+          const media = gsap.matchMedia();
+          media.add("(prefers-reduced-motion: no-preference)", () => {
+            if (scope.current) return setup(scope.current);
+          });
+          return () => media.revert();
+        }, scope.current);
+        revert = () => context.revert();
+      },
+    );
+    return () => {
+      disposed = true;
+      revert?.();
+    };
+  }, [loadSetup]);
   return (
     <div ref={scope} className={className}>
       {children}

@@ -1,5 +1,7 @@
 # Deployment and configuration
 
+**8 November update:** the user has authorised GitHub publication and a separate Cloudflare Workers review deployment. [Current Cloudflare setup and status](cloudflare-deployment.md) supersedes the earlier local-only deployment status below; production-domain replacement and live email remain separate.
+
 The Phase 8 build is a local review candidate. It has not been deployed. Run this checklist only after the agency has cleared the assets/content, policies, migration plan and live contact configuration. Preview flags and `noindex` are not access controls; protect staging, including static assets, behind hosting authentication.
 
 ## Runtime and reproducible setup
