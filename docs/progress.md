@@ -1,6 +1,6 @@
 # Pocket Creatives redesign — progress and session handoff
 
-Last updated: 8 November 2026. **Current state: Phase 8 local QA and release preparation delivered; mobile performance targets and release follow-ups remain open.**
+Last updated: 8 November 2026. **Current state: public GitHub source and Cloudflare Workers review deployment delivered; mobile performance targets, production-domain release and live email remain open.**
 
 The subsequent homepage image refresh was cancelled and reverted at the user's request on 5 November 2026. The original Phase 4 image assignments, featured projects, media manifest and inventory are restored. Await the user's explicit content-to-section instructions before replacing further media.
 
@@ -16,7 +16,7 @@ Read [plan.md](../plan.md), [phases.md](../phases.md) and this file before furth
 
 ## Publication request — 8 November 2026
 
-The user authorised a public GitHub repository and deployment, selected Workers rather than Pages, and approved Cloudflare image optimization with no shared cache. Source is published at https://github.com/ilham-saleh/pocket-creatives. See [deployment handoff](cloudflare-deployment.md) for the validated adapter, browser-only animation imports, bundled social assets, Node requirement and publication status. Existing media choices are preserved. No production-domain/DNS cutover or live email delivery is authorised by this review deployment.
+The user authorised a public GitHub repository and deployment, selected Workers rather than Pages, and approved Cloudflare image optimization with no shared cache. Source is published at https://github.com/ilham-saleh/pocket-creatives. The live review site is https://pocket-creatives.ilham-saleh.workers.dev, version `60985649-6f5b-4026-b960-591ded76eb3d`, serving 100% of traffic. Live HTTP verification passed 25/25 checks; live browser rendering/metadata/image verification passed 60/60, with unchanged font metrics. See [deployment handoff](cloudflare-deployment.md) for the validated adapter, browser-only animation imports, bundled social assets, Node requirement and publication status. Existing media choices are preserved. No production-domain/DNS cutover or live email delivery is authorised by this review deployment.
 
 ## Phase status
 
@@ -151,6 +151,6 @@ All project changes in Phase 1 are documentation/research artifacts under `docs/
 
 ## Exact next action
 
-All eight implementation phases have local handoffs. Continue from [Phase 8 QA](phase-8-qa.md) and [release follow-ups](release-readiness.md), not a new redesign phase. Open technical work: mobile Home Performance 90+, Home/Work LCP ≤2.5s, deployed-host/field validation and physical Safari/Android/screen-reader checks. The preview is at port 3005 with indexing and legacy redirects disabled. Preserve all original media choices until the user provides content-to-section instructions.
+All eight implementation phases have handoffs, and the authorised public source/Workers review deployment is live. For updates, follow [Cloudflare deployment](cloudflare-deployment.md); pushing GitHub does not automatically deploy. Continue from [Phase 8 QA](phase-8-qa.md) and [release follow-ups](release-readiness.md), not a new redesign phase. Open technical work: mobile Home Performance 90+, Home/Work LCP ≤2.5s, deployed-host/field validation and physical Safari/Android/screen-reader checks. The preview is at port 3005 with indexing and legacy redirects disabled. Preserve all original media choices until the user provides content-to-section instructions.
 
 Live enquiry activation remains pending a Resend account/API key, verified sender, form secret and exact origin; the approved receiving address is `team@pocketcreatives.co.uk`. Offline/browser mocks do not verify inbox delivery. Resolve asset rights, draft policies, disputed facts and full legacy route migration before production replacement. Phase progression does not authorise deployment.

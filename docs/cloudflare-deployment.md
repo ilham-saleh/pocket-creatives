@@ -6,10 +6,12 @@ The user authorised a public GitHub repository and public deployment on 8 Novemb
 - Worker: `pocket-creatives`
 - Account: `963e4ac33ac96bff809dad903fd43c25`
 - Workers subdomain: `ilham-saleh.workers.dev`
-- Target URL: https://pocket-creatives.ilham-saleh.workers.dev
-- Deployment status: validated locally; publication verification pending.
+- Live URL: https://pocket-creatives.ilham-saleh.workers.dev
+- Deployment status: **published and serving traffic**, verified 8 November 2026.
 
 This is a public review deployment, excluded from search. It does not replace the existing Pocket Creatives domain. The original content and image assignments remain unchanged. Online enquiry delivery remains disabled until a verified sender, provider credentials, form secret and allowed origin are configured. The email/phone alternatives remain available.
+
+Cloudflare version `60985649-6f5b-4026-b960-591ded76eb3d` serves 100% of traffic. The live site passed **25/25 HTTP smoke checks** and **60/60 browser metadata/rendering/image checks**. All eight font-width samples match the original Next.js baseline. [Machine-readable validation](deployment-validation.json) records the deployed source commit and results. Initial hostname requests briefly failed during propagation; the subsequent checks passed with system certificate trust.
 
 ## Repeatable setup
 

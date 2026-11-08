@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-08",
+  "repository": "https://github.com/ilham-saleh/pocket-creatives",
+  "url": "https://pocket-creatives.ilham-saleh.workers.dev",
+  "workerVersion": "60985649-6f5b-4026-b960-591ded76eb3d",
+  "deploymentId": "7297b489-9d8f-44de-8c28-66f71459a5fb",
+  "sourceCommit": "3391ccf",
+  "trafficPercent": 100,
+  "httpChecks": {
+    "base": "https://pocket-creatives.ilham-saleh.workers.dev",
+    "pass": true,
+    "checks": [
+      {
+        "path": "/",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/work",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/work/california-walnuts",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/work/beauty-photography",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/work/samsung-sparkbox",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/work/food-photography",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/work/product-photography",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/services",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/services/video-production",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/services/photography",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/about",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/process",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/pricing",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/creative-training",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/contact",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/journal",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/journal/photography-and-video-agency-london",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/privacy-policy",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/cookie-policy",
+        "status": 200,
+        "pass": true
+      },
+      {
+        "path": "/missing-page",
+        "status": 404,
+        "pass": true
+      },
+      {
+        "path": "/foundation",
+        "status": 404,
+        "pass": true
+      },
+      {
+        "path": "/api/enquiry",
+        "pass": true
+      },
+      {
+        "path": "/opengraph-image",
+        "pass": true
+      },
+      {
+        "path": "/robots.txt",
+        "pass": true
+      },
+      {
+        "path": "/sitemap.xml",
+        "pass": true
+      }
+    ]
+  },
+  "localBrowserChecks": {
+    "routesMetadataImages": 139,
+    "functional": 24,
+    "pageMotion": 31,
+    "homepageMotion": 33,
+    "keyboard": 15
+  },
+  "builds": [
+    "Next.js webpack",
+    "vinext Workers"
+  ],
+  "indexable": false,
+  "emailDeliveryEnabled": false,
+  "productionDependencyVulnerabilities": 0,
+  "liveBrowserChecks": {
+    "passed": true,
+    "total": 60,
+    "fontMetricsMatchBaseline": true
+  }
+}
